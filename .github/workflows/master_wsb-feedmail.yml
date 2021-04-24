@@ -48,7 +48,7 @@ jobs:
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'wsb-feedmail'
-        slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fe5bdf53ec8f49d290ed7add8239d11b }}
+        app-name: TyrczApp
+        slot-name: Production
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_24D84D964E1A4251841B79C16179F715 }}
         package: .

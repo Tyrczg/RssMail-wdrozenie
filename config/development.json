@@ -1,7 +1,7 @@
 {
   "feedmail": {
     "db": {
-        "url": "mongodb://localhost:27017",
+        "url": "mongodb://tyrcz-cosmodb:Ah2hjGGplG8ePpFZ4dsdBwqhAIS5ZMoc7BT4c6wUMksEwsAiAPBhzvjp2BPhiFbJxU0NVjUq434rWdN3ggq1xw==@tyrcz-cosmodb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@tyrcz-cosmodb@",
         "name": "dev",
         "options": {
             "useUnifiedTopology": true
@@ -12,8 +12,8 @@
         "filename": "./backend.log"
     },
     "mailgun": {
-      "domain": "",
-      "apiKey": ""
+      "domain": "sandbox1168ae4e494e4d0fb832bc6bc988f063.mailgun.org",
+      "apiKey": "71b35d7e-2fe7d5b4"
     },
     "port": 8080
   }
